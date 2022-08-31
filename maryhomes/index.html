@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Kadima Homes</title>
+    <!-- <script src="./data.js"></script> -->
+</head>
+<body>
+
+    <div class="main_container">
+        <div class="hero_container"> 
+            <div class="hero_opacity">
+                <div class="hero_content_wrapper">
+                    <!-- Nav Bar -->
+                    <div class="nav_bar">
+                        <div>
+                            <h3 class="logo">Kadima Homes</h3>
+                        </div>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Properties</a></li>
+                            <li><a href="#">Agents</a></li>
+                        </ul>
+
+                        <button>Find A House</button>
+                    </div>
+
+                    <div class="hero_content_section">
+                        <!-- Hero Text And CTA -->
+                        <div class="hero_text_and_cta_btn">
+                            <h1>Find A House That Suits You</h1>
+                            <p>Want to find a home? We are ready to help you find one that suits your lifestyle and needs.</p>
+                            <button>Get Started</button>
+                        </div>
+
+                    </div>
+               
+                </div>
+            </div>
+        </div>
+
+
+        <div class="content_container">
+
+            <div class="content_container_content_wrapper">
+                <p>----</p>
+                <h2>Our Popular Homes</h2>
+
+                <div class="popular_homes_container">
+                    <div class="homecard">
+                        <div class="homecard_img_holder">
+
+                        </div>
+
+                        <div class="homecard_content_holder">
+                            <h4>Nairobi, Kenya</h4>
+                            <div class="homecard_secondary_details">
+                                <p>4 Bed</p>
+                                <p>10 x 10 Metres</p>
+                                <p>1600 m</p>
+                            </div>
+                        </div>
+                        <div class="homecard_btn_and_price">
+                            <button>Book Now</button>
+                            <h3>KSH 67,000,000</h3>
+                        </div>
+                    </div>
+                 
+                    <div class="homecard">
+                        <div class="homecard_img_holder2">
+                            
+                        </div>
+
+                        <div class="homecard_content_holder">
+                            <h4>Kiambu, Kenya</h4>
+                            <div class="homecard_secondary_details">
+                                <p>3 Bed</p>
+                                <p>10 x 10 Metres</p>
+                                <p>1800 m</p>
+                            </div>
+                        </div>
+                        <div class="homecard_btn_and_price">
+                            <button>Book Now</button>
+                            <h3>KSH 45,000,000</h3>
+                        </div>
+                    </div>
+
+                    <div class="homecard">
+                        <div class="homecard_img_holder3">
+                            
+                        </div>
+
+                        <div class="homecard_content_holder">
+                            <h4>Eldoret, Kenya</h4>
+                            <div class="homecard_secondary_details">
+                                <p>7 Bed</p>
+                                <p>10 x 10 Metres</p>
+                                <p>2500 m</p>
+                            </div>
+                        </div>
+                        <div class="homecard_btn_and_price">
+                            <button>Book Now</button>
+                            <h3>KSH 90,000,000</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq_wrapper">
+                    <p>----</p>
+                    <h2>Customer Testimonials</h2>
+                    <div class="testimonial_nav">
+                        <h4 id="view_testimonial_btn" onclick="showTestimonialCards()">View testimonials</h4>
+                        <h4 id="add_new_testimonial_btn" onclick="getTestimonialForm()">Add  new testimonial</h4>
+
+                    </div>
+
+                    <div id="testimonial_cards" >
+
+
+                   
+
+                    </div>
+
+                    <div class="testimonial_form_wrapper">
+                        <form id="testimonial_form">
+                            <h3>Add Testimonial</h3>
+
+
+                            <div class="form_field">
+                                <label for="name">Your Name</label>
+                                <input type="text" placeholder="Name" name="author">
+                            </div>
+
+                            <div class="form_field">
+                                <label for="testimonial">Testimonial</label>
+                                <input type="text" placeholder="Testimonial" name="testimonial">
+                            </div>
+
+                            <button type="submit" onclick="handleSubmit(e)">Create</button>
+                        </form>
+
+                    </div>
+                </div>
+
+
+            </div>
+            
+            <div class="footer">
+                <div class="footer_content">
+                    <h2>Kadima Homes</h2>
+                    <div class="footer_content_right">
+                        <p>&#169; Kadima Homes 2022</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+
+    <script src="./app.js"></script>
+</body>
+</html>
