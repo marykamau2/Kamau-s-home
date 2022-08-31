@@ -1,0 +1,8 @@
+
+{ 
+    "testimonials":[   
+         {"id":1, "testimonial":"I got the best service and bought my dream house. Kadima Homes are the best", "author":"John Wasike"},
+         {"id":2, "testimonial":"We had our best experience with Kadima Homes buying our first home. All agents were extreemely knowledgeable and honest", "author":"Njuguna's"},
+         {"id":3, "testimonial":"Kadima Homes have become my best friends. They guided me in evey step of the way and helped sold me the best house", "author":"Lupita Nyong'o"}
+    ]
+}
